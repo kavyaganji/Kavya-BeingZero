@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kavyaganji/Kavya-BeingZero/issues"
   },
-  "homepage": "https://github.com/kavyaganji/Kavya-BeingZero#readme"
+  "homepage": "https://github.com/kavyaganji/Kavya-BeingZero#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
