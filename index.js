@@ -6,3 +6,9 @@ app.get('/', (req, res) => res.sendFile(__dirname+'/public/html/index.html'))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
+var obj={}
+obj.name="Kavya"
+obj.college="CMRCET"
+obj.regno="17H51A0521"
+
+app.get('/data',(req , res) => res.json(obj))
