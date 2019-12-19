@@ -1,0 +1,19 @@
+{
+  "name": "kavya-beingzero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavyaganji/Kavya-BeingZero.git"
+  },
+  "author": "Kavya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavyaganji/Kavya-BeingZero/issues"
+  },
+  "homepage": "https://github.com/kavyaganji/Kavya-BeingZero#readme"
+}
