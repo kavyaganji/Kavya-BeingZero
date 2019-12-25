@@ -11,4 +11,5 @@ $("#name").text(d.name);
 $("#col").text(d.college);
 $("#reg").text(d.regno);
 })
+
 })
