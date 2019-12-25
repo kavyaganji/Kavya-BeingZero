@@ -11,7 +11,28 @@
     <title>Resume</title>
   </head>
   <body>
-      <div class="jumbotron">
+      
+ <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#name">Profile<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#edu">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+      
+      <div class="jumbotron" id="name">
     <h1 style="text-align: center">Kavya Ganji</h1>
       <div class="container">
   <div class="row">
@@ -30,7 +51,7 @@
           <strong>Career Objective : </strong>To secure a challenging position and a responsible career opportunity in a reputable organization to expand my learnings, knowledge, and skills while making a significant contribution to the success of the company.
           </div>
           <div class="col-md-4" style="text-align: center">
-          <img src="img/Photo_1.jpg" width="120" height="150">
+          <img src="img/Photo_1.jpg" width="120" height="150" id="edu">
           </div>
     </div>
       </div>
@@ -66,7 +87,7 @@
           </tr>
       </table>
       <p><br></p>
-      <div class="container">
+      <div class="container" id="skills">
       <div class="row">
       <p><strong>Technical Skills : </strong> C, C++, JAVA, HTML</p>
       </div>
